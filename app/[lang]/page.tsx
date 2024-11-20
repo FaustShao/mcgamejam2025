@@ -16,7 +16,7 @@ export default function Home({ params }: { params: { lang: Language } }) {
         alt={"McGameJam 2025"}
         width="0"
         height="0"
-        sizes="100vw"
+        sizes="95vw"
         className="w-full h-auto"
       />
 
