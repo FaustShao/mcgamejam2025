@@ -12,12 +12,12 @@ export default function Home({ params }: { params: { lang: Language } }) {
   return (
     <div className="flex flex-col gt-lg:justify-center w-screen h-screen">
       <Image
-        src={"/Banner_Unbranded_2025.png"}
+        src={"/Vector Eventbrite banner.png"}
         alt={"McGameJam 2025"}
         width="0"
         height="0"
-        sizes="95vw"
-        className="w-full h-auto"
+        sizes="100vw"
+        className="w-auto h-full"
       />
 
       <FloatingNavCover params={params} />
